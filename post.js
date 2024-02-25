@@ -2,8 +2,12 @@ document.addEventListener("DOMContentLoaded" , function () {
     const postContainer = document.getElementsByClassName("post-container")[0];
 
     const posts = [
-        {userName : "Amulya" , userProfile  : "images/default-user.png" , postImage : ["images/post1.jpg","images/WhatsApp Video 2024-01-17 at 00.16.07.mp4","images/post1.jpg"] },
-        {userName : "Vishrut" , userProfile  : "images/default-user.png" , postImage : ["images/WhatsApp Video 2024-01-17 at 00.16.07.mp4"] },
+        {userName : "Demon" , userProfile  : "images/profile-picture-6.jpg" , postImage : ["images/post1.jpg","images/WhatsApp Video 2024-01-17 at 00.16.07.mp4","images/post1.jpg"] , caption : "Winters are love🤍⛄🏂"},
+        {userName : "TALxOCEAN" , userProfile  : "images/profile-picture-2.jpg" , postImage : ["images/post-video-1.mp4"] , caption : ""},
+        {userName : "ZACHNICHOLX" , userProfile  : "images/profile-picture-3.jpg" , postImage : ["images/post-video-2.mp4"] , caption : ""},
+        {userName : "IRAGIB" , userProfile  : "images/profile-picture-4.jpg" , postImage : ["images/post-video-3.mp4"] , caption : ""},
+        {userName : "sharmajikabadabeta" , userProfile  : "images/profile-picture-5.jpg" , postImage : ["images/post-video-4.mp4"] , caption : ""},
+        {userName : "" , userProfile  : "images/profile-picture-6.jpg" , postImage : ["images/post-video-1.mp4"] , caption : ""},
     ];
 
     posts.forEach( postData => {
@@ -101,7 +105,7 @@ document.addEventListener("DOMContentLoaded" , function () {
                     </div>
                     <div class="caption">
                         <span>
-                            Winters are love🤍⛄🏂
+                            ${postData.caption}
                         </span>
                     </div>
                 </div>

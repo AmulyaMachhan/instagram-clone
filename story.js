@@ -2,18 +2,18 @@ document.addEventListener("DOMContentLoaded" , function(){
 
     const storyContainer = document.getElementsByClassName("stories-content")[0];
     const stories = [
-        {username : "Ethan Turner" , userProfile : "images/default-user.png" , hasStory : true },
-        {username : "Olivia Bennett" , userProfile : "images/default-user.png" , hasStory : true },
-        {username : "Jackson Rodriguez" , userProfile : "images/default-user.png" , hasStory : true },
-        {username : "Ava Hayes" , userProfile : "images/default-user.png" , hasStory : false},
-        {username : "Liam Parker" , userProfile : "images/default-user.png" , hasStory : false},
-        {username : "Mia Thompson" , userProfile : "images/default-user.png" , hasStory : false},
-        {username : "Noah Sanchez" , userProfile : "images/default-user.png" , hasStory : false},
-        {username : "Sophia Williams" , userProfile : "images/default-user.png" , hasStory : false},
-        {username : "Aiden Taylor" , userProfile : "images/default-user.png" , hasStory : false},
-        {username : "Isabella Mitchell" , userProfile : "images/default-user.png" , hasStory : false},
-        {username : "" , userProfile : "images/default-user.png" , hasStory : false},
-        {username : "" , userProfile : "images/default-user.png" , hasStory : false},
+        {username : "Ethan Turner" , userProfile : "images/profile-picture-2.jpg" , hasStory : true },
+        {username : "Olivia Bennett" , userProfile : "images/profile-picture-4.jpg" , hasStory : true },
+        {username : "Jackson Rodriguez" , userProfile : "images/profile-picture-3.jpg" , hasStory : true },
+        {username : "Ava Hayes" , userProfile : "images/profile-picture-5.jpg" ,hasStory : false},
+        {username : "Liam Parker" , userProfile : "images/profile-picture-6.jpg" , hasStory : false},
+        {username : "Mia Thompson" , userProfile : "images/profile-picture-7.jpg" , hasStory : false},
+        {username : "Noah Sanchez" , userProfile : "images/profile-picture-8.jpg" , hasStory : false},
+        {username : "Sophia Williams" , userProfile : "images/profile-picture-9.jpg" , hasStory : false},
+        {username : "Aiden Taylor" , userProfile : "images/profile-picture-10.jpg" , hasStory : false},
+        {username : "Isabella Mitchell" , userProfile : "images/profile-picture-11.jpg" , hasStory : false},
+        {username : "" , userProfile : "images/profile-picture-12.jpg" , hasStory : false},
+        {username : "" , userProfile : "images/profile-picture-13.jpg" , hasStory : false},
     ];
 
     
