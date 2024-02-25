@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+ <div class="mobile-container">
+
+    <!-- header section -->
+    <header>      
+      <div class="instagram-logo">
+        <span>Instagram</span>
+      </div>
+      <div class="header-buttons">
+          <div type="button" data-theme-toggle aria-label="x">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-sun" viewBox="0 0 16 16">
+              <path fill="var(--color-svg)" stroke="var(--color-svg))" stroke-width="0.6" d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/>
+            </svg>
+          </div>
+          <div class="like-button">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.4995 21.2609C11.1062 21.2609 10.7307 21.1362 10.4133 20.9001C8.2588 19.3012 3.10938 15.3239 1.81755 12.9143C0.127895 9.76543 1.14258 5.72131 4.07489 3.89968C5.02253 3.31177 6.09533 3 7.18601 3C8.81755 3 10.3508 3.66808 11.4995 4.85726C12.6483 3.66808 14.1815 3 15.8131 3C16.9038 3 17.9766 3.31177 18.9242 3.89968C21.8565 5.72131 22.8712 9.76543 21.186 12.9143C19.8942 15.3239 14.7448 19.3012 12.5902 20.9001C12.2684 21.1362 11.8929 21.2609 11.4995 21.2609ZM7.18601 4.33616C6.34565 4.33616 5.5187 4.57667 4.78562 5.03096C2.43888 6.49183 1.63428 9.74316 2.99763 12.2819C4.19558 14.5177 9.58639 18.6242 11.209 19.8267C11.3789 19.9514 11.6158 19.9514 11.7856 19.8267C13.4082 18.6197 18.799 14.5133 19.997 12.2819C21.3603 9.74316 20.5557 6.48738 18.209 5.03096C17.4804 4.57667 16.6534 4.33616 15.8131 4.33616C14.3425 4.33616 12.9657 5.04878 12.0359 6.28696L11.4995 7.00848L10.9631 6.28696C10.0334 5.04878 8.6611 4.33616 7.18601 4.33616Z" fill="var(--color-svg)" stroke="var(--color-svg)" stroke-width="0.6"/>
+              </svg>
+          </div>
+          <div class="message-button">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.81038 19.7478C5.83176 19.4539 5.70787 19.1681 5.47873 18.9827C3.2792 17.2037 1.9 14.5525 1.9 11.5868C1.9 6.27627 6.38748 1.9 12.0098 1.9C17.6196 1.9 22.1078 6.27565 22.1078 11.5868C22.1078 16.8966 17.6092 21.2735 11.998 21.2735C11.0656 21.2735 10.1798 21.1544 9.32697 20.9277C9.15685 20.8825 8.97721 20.8882 8.81028 20.944L5.64643 22.0022L5.81038 19.7478Z" stroke="var(--color-svg)" stroke-width="1.8" stroke-linejoin="round"/>
+                  <path d="M10.1498 8.7952C10.2222 8.80563 10.2825 8.81606 10.3548 8.82649C11.428 9.05591 12.5252 10.0362 13.3693 10.6202C13.8396 10.9539 14.2375 10.9226 14.7078 10.6097C15.7086 9.92147 16.7456 9.26448 17.7705 8.58664C18.0478 8.39893 18.3372 8.20079 18.6748 8.45107C19.0486 8.7222 18.8195 9.0142 18.6266 9.28534C17.6137 10.6827 16.6129 12.0801 15.588 13.4671C14.8886 14.4265 13.8999 14.5621 12.8388 13.8842C12.1032 13.4045 11.3436 12.9561 10.6201 12.4556C10.1378 12.1219 9.73984 12.1636 9.28163 12.4764C8.26876 13.1647 7.24382 13.8217 6.21889 14.4995C5.94156 14.6872 5.65216 14.8854 5.31454 14.6247C4.97691 14.3744 5.15778 14.0928 5.33865 13.8321C6.3877 12.393 7.42469 10.9539 8.47374 9.51476C8.82343 9.02463 9.47456 8.73263 10.1498 8.7952Z" fill="var(--color-svg)"/>
+              </svg>                    
+          </div>
+      </div>
+    </header>
+
+    <!-- main section container -->
+    <main class="main-container">
+        <section class="content">
+            <!-- content contaienr -->
+            <div class="content-container">
+
+                <!-- story container -->
+                <div class="stories-content">
+                  <button class="story">
+                      <div class="story-avatar user--add-story">
+                        <div class= "story-border">
+                          <svg width="6" height="64" xmlns="http://www.w3.org/2000/svg">
+                            <circle r="31" cy="32" cx="32" />
+                            <defs>
+                              <linearGradient y2="0" x2="1" y1="1" x1="0" id="--story-gradient" >
+                                <stop offset="0" stop-color="#f09433" />
+                                <stop offset="0.25" stop-color="#e6683c" />
+                                <stop offset="0.5" stop-color="#dc2743" />
+                                <stop offset="0.75" stop-color="#cc2366" />
+                                <stop offset="1" stop-color="#bc1888" />
+                              </linearGradient>
+                            </defs>
+                          </svg>
+                        </div>
+                        <div class="story-picture">
+                          <img src="images/default-user.png" alt="User Picture" />
+                        </div>
+                      </div>
+                      <span class="story-user">Amulya</span>
+                    </button>
+                </div>
+                <!-- story container end -->
+
+                <!-- post-content -->
+                <div class="post-container">
+               
+                </div>
+                <!-- post content end -->
+            </div>
+            <!-- content contaienr -->
+            
+        </section>            
+    </main>
+
+    <!-- footer section -->
+    <footer>
+        <div class="navigation-bar">
+            <div class="nav-container">
+                <nav class="navbar">
+                    <div class="home-button">
+                        <a href="#" class="navbar__button">
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.45307 11.751L11.9773 2.02175L21.5015 11.751C21.7906 12.0463 21.9545 12.4468 21.9545 12.8711V20.4556C21.9545 20.7747 21.7037 21 21.4427 21H15.964C15.713 21 15.4721 20.7849 15.4721 20.476V15.8886C15.4721 13.9497 13.9267 12.34 11.9773 12.34C10.0279 12.34 8.48244 13.9497 8.48244 15.8886V20.476C8.48244 20.7849 8.24157 21 7.99053 21H2.51187C2.25085 21 2 20.7747 2 20.4556V12.8711C2 12.4468 2.16397 12.0463 2.45307 11.751Z" stroke="var(--color-svg)" stroke-width="2" />
+                          </svg>
+                        </a>
+                    </div>
+                    <div class="search-button">
+                        <a href="#" class="navbar__button">
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" >
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.669 21.6543C21.8625 21.4622 21.863 21.1494 21.6703 20.9566L17.3049 16.5913C18.7912 14.9327 19.7017 12.7525 19.7017 10.3508C19.7017 5.18819 15.5135 1 10.3508 1C5.18819 1 1 5.18819 1 10.3508C1 15.5135 5.18819 19.7017 10.3508 19.7017C12.7624 19.7017 14.9475 18.7813 16.606 17.2852L20.9739 21.653C21.1657 21.8449 21.4765 21.8454 21.669 21.6543ZM1.9843 10.3508C1.9843 5.7394 5.7394 1.9843 10.3508 1.9843C14.9623 1.9843 18.7174 5.7394 18.7174 10.3508C18.7174 14.9623 14.9623 18.7174 10.3508 18.7174C5.7394 18.7174 1.9843 14.9623 1.9843 10.3508Z" fill="var(--color-svg)" stroke="var(--color-svg)" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </a>
+                    </div>
+                    <div class="post-button">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="3" width="18" height="18" rx="5" stroke="var(--color-svg)" stroke-width="1.8"/>
+                        <line x1="12.1" y1="6.9" x2="12.1" y2="17.1" stroke="var(--color-svg)" stroke-width="1.8" stroke-linecap="round"/>
+                        <line x1="6.9" y1="11.8" x2="17.1" y2="11.8" stroke="var(--color-svg)" stroke-width="1.8" stroke-linecap="round"/>
+                      </svg>                            
+                    </div>
+                    <div class="reels-button">
+                        <a href="#" class="navbar__button">
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" >
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18 2.8H7C5.23269 2.8 3.8 4.23269 3.8 6V17C3.8 18.7673 5.23269 20.2 7 20.2H18C19.7673 20.2 21.2 18.7673 21.2 17V6C21.2 4.23269 19.7673 2.8 18 2.8ZM7 1C4.23858 1 2 3.23858 2 6V17C2 19.7614 4.23858 22 7 22H18C20.7614 22 23 19.7614 23 17V6C23 3.23858 20.7614 1 18 1H7Z" fill="var(--color-svg)" />
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M22 7.99995H3V6.19995H22V7.99995Z" fill="var(--color-svg)" />
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M10 6.99989L6 1.99989L7.57349 1.12573L11.5735 6.12573L10 6.99989Z" fill="var(--color-svg)" />
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5 6.99989L12.5 1.99989L14.0735 1.12573L18.0735 6.12573L16.5 6.99989Z" fill="var(--color-svg)" />
+                            <path d="M15.75 13.0671C16.0833 13.2595 16.0833 13.7407 15.75 13.9331L10.5 16.9642C10.1667 17.1566 9.75 16.9161 9.75 16.5312L9.75 10.469C9.75 10.0841 10.1667 9.84354 10.5 10.036L15.75 13.0671Z" fill="var(--color-svg)" />
+                          </svg>
+                        </a>
+                    </div>
+                    <div class="profile-button">
+                        <button class="navbar__button">
+                              <img src="images/default-user.png" alt="User Picture" />
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+ </div>
+
+ <script src="theme.js"></script>
+ <script type="module" src="story.js"></script>
+ <script type="module" src="post.js"></script>
+
+</body>
+</html>
