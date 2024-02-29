@@ -1,9 +1,28 @@
-const themeButtonToggle = document.querySelector("[data-theme-toggle]");
+function calculateSettingAsTheme({localStorageTheme, systemSettingDark}){
+    if(localStorageTheme !== null){
+        return localStorageTheme;
+    }
+    if(systemSettingDark.matches){
+        return "dark";
+    }
+    return "light";
+}
 
-themeButtonToggle.addEventListener( "click" , function (){
- 
-    const htmlElement = document.querySelector('html');
-    const dataThemeValue = htmlElement.getAttribute('data-theme');
+function toggleTheme({theme}){
+    document.querySelector("html").setAttribute("data-theme",theme);
+}
 
-    htmlElement.setAttribute('data-theme' , dataThemeValue === "light" ? "dark" : "light");
+const button = document.querySelector("[data-theme-toggle]");
+const localStorageTheme = localStorage.getItem("theme");
+const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+let currentThemeSetting = calculateSettingAsTheme({localStorageTheme,systemSettingDark});
+
+button.addEventListener("click" , (event) => {
+    const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
+
+    localStorage.setItem("theme", newTheme);
+    toggleTheme({theme : newTheme});
+
+    currentThemeSetting =newTheme;
 });
