@@ -2,6 +2,8 @@
 
 Welcome to the Instagram clone project! This project is a simplified version of Instagram, featuring dynamic post and story addition using JavaScript, as well as supporting both dark and light themes. The design is responsive to ensure a seamless user experience across various devices.
 
+You can view this site [here](https://amulyamachhan.github.io/instagram-clone/);
+
 ## Features
 
 1. **Dynamic Posts and Stories:**
@@ -14,6 +16,9 @@ Welcome to the Instagram clone project! This project is a simplified version of 
 
 3. **Responsive Design:**
    - Ensures a seamless user experience across devices, including desktops, tablets, and mobile phones.
+
+##Screenshots
+![instagrame clone](https://github.com/AmulyaMachhan/instagram-clone/assets/111338400/4fb2580e-a14c-4af9-bbb9-342ac22ce9e6)
 
 ## Technologies Used
 
