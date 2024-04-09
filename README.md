@@ -17,7 +17,7 @@ You can view this site [here](https://amulyamachhan.github.io/instagram-clone/);
 3. **Responsive Design:**
    - Ensures a seamless user experience across devices, including desktops, tablets, and mobile phones.
 
-##Screenshots
+## Screenshots
 ![instagram](https://github.com/AmulyaMachhan/instagram-clone/assets/111338400/41818507-4e5b-49c2-8ec1-1c29858d41d3)
 
 ## Technologies Used
